@@ -18,6 +18,7 @@ https://www.tekrevue.com/tip/show-path-finder-title-bar/
 defaults write com.apple.dock autohide-delay -float 0; killall Dock
 defaults write com.apple.dock autohide-time-modifier -float 0.3; killall Dock
 defaults write com.apple.dock static-only -bool true; killall Dock
+defaults write com.apple.Dock showhidden -bool yes; killall Dock
 
 https://www.intego.com/mac-security-blog/unlock-the-macos-docks-hidden-secrets-in-terminal/
 https://www.tekrevue.com/tip/recent-applications-extra-icons-mojave-dock/
