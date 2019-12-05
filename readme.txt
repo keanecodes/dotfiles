@@ -15,8 +15,10 @@ https://www.tekrevue.com/tip/show-path-finder-title-bar/
 
 // Mac Dock Configuration // ------------------------------------------------
 
-https://www.intego.com/mac-security-blog/unlock-the-macos-docks-hidden-secrets-in-terminal/
+defaults write com.apple.dock autohide-delay -float 0; killall Dock
+defaults write com.apple.dock autohide-time-modifier -float 0.3; killall Dock
 
+https://www.intego.com/mac-security-blog/unlock-the-macos-docks-hidden-secrets-in-terminal/
 https://www.tekrevue.com/tip/recent-applications-extra-icons-mojave-dock/
 
 // Mac Others Configuration // ----------------------------------------------
